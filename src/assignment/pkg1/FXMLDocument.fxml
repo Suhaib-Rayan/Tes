@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="1024.0" style="-fx-background-color: #cccdcf;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="activity3.FXMLDocumentController">
+   <children>
+      <AnchorPane fx:id="jrk" layoutY="1.0" onDragDetected="#tkjr" prefHeight="651.0" prefWidth="239.0" style="-fx-background-color: #051a42;">
+         <children>
+            <Button fx:id="use" layoutX="1.0" layoutY="248.0" mnemonicParsing="false" onAction="#ahmed" prefHeight="42.0" prefWidth="232.0" style="-fx-background-color: #051a42;" text="user" textFill="#4447ff">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="acc" layoutX="5.0" layoutY="297.0" mnemonicParsing="false" onAction="#unts" prefHeight="44.0" prefWidth="226.0" style="-fx-background-color: #1a73e8;" text="Accounts" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="oper" layoutX="-1.0" layoutY="344.0" mnemonicParsing="false" onAction="#tion" prefHeight="44.0" prefWidth="233.0" style="-fx-background-color: #051a42;" text="Operations" textFill="#4447ff">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Label fx:id="admi" layoutX="26.0" layoutY="41.0" onDragDetected="#deas" prefHeight="54.0" prefWidth="206.0" style="-fx-background-color: #051a42;" text="Admin Dashboard" textFill="#699ec7">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="252.0" layoutY="80.0" prefHeight="530.0" prefWidth="741.0" style="-fx-background-color: #d1e9c9;">
+         <children>
+            <Button fx:id="cre" layoutX="25.0" layoutY="62.0" mnemonicParsing="false" onAction="#ner" prefHeight="53.0" prefWidth="224.0" style="-fx-background-color: #0d1c70;" text="+ Create ner account" textFill="#f5f5f5">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="sho" layoutX="34.0" layoutY="166.0" mnemonicParsing="false" onAction="#all" prefHeight="52.0" prefWidth="179.0" style="-fx-background-color: #030a2e;" text="Show All Accounts" textFill="WHITE" />
+            <Button fx:id="ser" layoutX="657.0" layoutY="178.0" mnemonicParsing="false" onAction="#arc" prefHeight="40.0" prefWidth="75.0" style="-fx-background-color: #030a2e;" text="Search" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <TreeTableView layoutX="9.0" layoutY="254.0" prefHeight="200.0" prefWidth="688.0">
+              <columns>
+                <TreeTableColumn prefWidth="57.666656494140625" text="id" />
+                <TreeTableColumn prefWidth="170.33334350585938" text="Account number" />
+                  <TreeTableColumn prefWidth="103.66665649414062" text="User Name" />
+                  <TreeTableColumn prefWidth="75.66668701171875" text="Currency" />
+                  <TreeTableColumn prefWidth="84.66668701171875" text="Balance" />
+                  <TreeTableColumn prefWidth="193.0" text="Creation Data" />
+              </columns>
+            </TreeTableView>
+            <Button fx:id="up" layoutX="17.0" layoutY="458.0" mnemonicParsing="false" onAction="#dat" prefHeight="53.0" prefWidth="112.0" style="-fx-background-color: #6073d3;" text="Update" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="de" layoutX="141.0" layoutY="458.0" mnemonicParsing="false" onAction="#ete" prefHeight="52.0" prefWidth="105.0" style="-fx-background-color: #e10000;" text="Delete" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <TextField layoutX="460.0" layoutY="180.0" prefHeight="41.0" prefWidth="200.0" promptText="Account number" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="261.0" layoutY="30.0" prefHeight="33.0" prefWidth="215.0" style="-fx-background-color: #cccdcf;" text="Accounts Managment">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
